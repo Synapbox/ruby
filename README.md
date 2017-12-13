@@ -1,6 +1,6 @@
 # Ruby Style Guide
 
-This is Synapbox's Ruby Style Guide taken for Airbnb's Style guides.
+This is Synapbox's Ruby Style Guide taken for [Airbnb's Style guides](https://github.com/airbnb/ruby).
 
 It was inspired by [GitHub's guide](https://web.archive.org/web/20160410033955/https://github.com/styleguide/ruby) and [Bozhidar Batsov's guide][bbatsov-ruby].
 
@@ -67,7 +67,7 @@ It was inspired by [GitHub's guide](https://web.archive.org/web/20160410033955/h
            else 'Jazz'
            end
     ```
-
+    
 * <a name="align-function-params"></a>Align function parameters either all on
     the same line or one per line.<sup>[[link](#align-function-params)]</sup>
 
@@ -154,6 +154,10 @@ It was inspired by [GitHub's guide](https://web.archive.org/web/20160410033955/h
     <sup>[[link](#no-space-before-commas)]</sup>
 
     ```ruby
+    #bad
+    result = func(a , b)
+
+    #good
     result = func(a, b)
     ```
 
